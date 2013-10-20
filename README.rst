@@ -32,3 +32,4 @@ Backup for Restore Later
 ------------------------
 
     /usr/share/icons/default/index.theme
+    /lib/plymouth/*

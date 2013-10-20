@@ -1,5 +1,13 @@
+blubuntu (0.9.2) saucy; urgency=high
+
+  * blue plymouth theme
+
+ -- Nattawut Phetmak <neizod@gmail.com>  Sun, 20 Oct 2013 11:27:42 +0700
+
+
 blubuntu (0.9.1) saucy; urgency=high
 
   * initial release
+  * black cursor
 
  -- Nattawut Phetmak <neizod@gmail.com>  Sun, 20 Oct 2013 06:25:42 +0700
