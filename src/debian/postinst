@@ -1,3 +1,25 @@
 #!/usr/bin/env bash
 
+# plymouth theme
+update-alternatives \
+    --install /lib/plymouth/themes/default.plymouth \
+              default.plymouth \
+              /lib/plymouth/themes/blubuntu-logo/ubuntu-logo.plymouth \
+              42 \
+    --slave   /lib/plymouth/themes/default.grub \
+              default.plymouth.grub \
+              /lib/plymouth/themes/blubuntu-logo/ubuntu-logo.grub
+update-alternatives \
+    --set default.plymouth \
+          /lib/plymouth/themes/blubuntu-logo/ubuntu-logo.plymouth
+
+update-alternatives \
+    --install /lib/plymouth/themes/text.plymouth \
+              text.plymouth \
+              /lib/plymouth/themes/blubuntu-text/ubuntu-text.plymouth \
+              42
+update-alternatives \
+    --set text.plymouth \
+          /lib/plymouth/themes/blubuntu-text/ubuntu-text.plymouth
+
 update-grub
