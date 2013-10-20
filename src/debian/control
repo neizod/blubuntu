@@ -1,0 +1,14 @@
+Source: blubuntu
+Section: gnome
+Priority: extra
+Maintainer: Nattawut Phetmak <neizod@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://github.com/neizod/blubuntu
+
+Package: blubuntu
+Architecture: all
+Depends:
+Recommends: linux-source
+Suggests: kernel-package
+Description: Blubuntu turns Ubuntu into blue!
