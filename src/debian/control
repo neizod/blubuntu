@@ -9,6 +9,4 @@ Homepage: http://github.com/neizod/blubuntu
 Package: blubuntu
 Architecture: all
 Depends:
-Recommends: linux-source
-Suggests: kernel-package
 Description: Blubuntu turns Ubuntu into blue!
