@@ -1,3 +1,12 @@
+blubuntu (0.9.5) saucy; urgency=high
+
+  * fix lightdm background issue.
+  * remove sed script for non exists file.
+  * add black cursor in update-alternatives.
+
+ -- Nattawut Phetmak <neizod@gmail.com>  Sun, 20 Oct 2013 22:22:42 +0700
+
+
 blubuntu (0.9.4) saucy; urgency=high
 
   * lightdm now turns blue too (seems hardest part)
