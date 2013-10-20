@@ -26,15 +26,22 @@ update-grub
 
 
 # default background
-path=/usr/share/backgrounds/
+path=/usr/share/backgrounds
 name=Starry_Night_Over_the_Rhone_by_Vincent_van_Gogh.jpg
 
 file=/usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override
-sed -i "s|^\(picture-uri='file://$path\).\+\('\)\$|\1$name\2|" $file
+sed -i "s|^\(picture-uri='file://$path\).\+\('\)\$|\1/$name\2|" $file
 
 lead=/desktop/gnome/background
 file=/usr/share/gconf/defaults/10_libgnome2-common
-sed -i "s|^\($lead/picture_filename\t$path\).\+\$|\1$name|" $file
+sed -i "s|^\($lead/picture_filename\t$path\).\+\$|\1/$name|" $file
 sed -i "s|^\($lead/primary_color\t\).\+\$|\1#29394E|" $file
 
 glib-compile-schemas /usr/share/glib-2.0/schemas
+
+
+# lightdm default background
+xhost +SI:localuser:lightdm
+su lightdm
+gsettings set com.canonical.unity-greeter background "$path/$name"
+gsettings set com.canonical.unity-greeter background-color '#000014'

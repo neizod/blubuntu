@@ -1,3 +1,10 @@
+blubuntu (0.9.4) saucy; urgency=high
+
+  * lightdm now turns blue too (seems hardest part)
+
+ -- Nattawut Phetmak <neizod@gmail.com>  Sun, 20 Oct 2013 16:10:42 +0700
+
+
 blubuntu (0.9.3) saucy; urgency=high
 
   * change default backgound image into blue
