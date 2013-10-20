@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper>
+    <name>Starry Night Over the Rhone</name>
+    <filename>/usr/share/backgrounds/Starry_Night_Over_the_Rhone_by_Vincent_van_Gogh.jpg</filename>
+    <options>zoom</options>
+    <pcolor>#000014</pcolor>
+    <scolor>#000014</scolor>
+    <shade_type>solid</shade_type>
+  </wallpaper>
+</wallpapers>
+
