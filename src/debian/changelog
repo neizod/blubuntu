@@ -1,3 +1,24 @@
+blubuntu (0.9.8) saucy; urgency=high
+
+  * fix lightdm sed bug, again.
+
+ -- Nattawut Phetmak <neizod@gmail.com>  Sun, 21 Oct 2013 00:49:42 +0700
+
+
+blubuntu (0.9.7) saucy; urgency=high
+
+  * fix lightdm sed bug.
+
+ -- Nattawut Phetmak <neizod@gmail.com>  Sun, 21 Oct 2013 00:17:42 +0700
+
+
+blubuntu (0.9.6) saucy; urgency=high
+
+  * finally solve lightdm problem!
+
+ -- Nattawut Phetmak <neizod@gmail.com>  Sun, 20 Oct 2013 23:50:42 +0700
+
+
 blubuntu (0.9.5) saucy; urgency=high
 
   * fix lightdm background issue.
