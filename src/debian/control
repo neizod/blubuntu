@@ -2,7 +2,7 @@ Source: blubuntu
 Section: gnome
 Priority: extra
 Maintainer: Nattawut Phetmak <neizod@gmail.com>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.4
 Homepage: http://github.com/neizod/blubuntu
 
