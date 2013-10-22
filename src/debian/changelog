@@ -1,15 +1,23 @@
+blubuntu (0.9.9) saucy; urgency=high
+
+  * split wallpaper, plymouth, lightdm & ambiance out of main package.
+  * remove update-alternatives x-cursor-theme
+
+ -- Nattawut Phetmak <neizod@gmail.com>  Tue, 22 Oct 2013 08:34:42 +0700
+
+
 blubuntu (0.9.8) saucy; urgency=high
 
   * fix lightdm sed bug, again.
 
- -- Nattawut Phetmak <neizod@gmail.com>  Sun, 21 Oct 2013 00:49:42 +0700
+ -- Nattawut Phetmak <neizod@gmail.com>  Mon, 21 Oct 2013 00:49:42 +0700
 
 
 blubuntu (0.9.7) saucy; urgency=high
 
   * fix lightdm sed bug.
 
- -- Nattawut Phetmak <neizod@gmail.com>  Sun, 21 Oct 2013 00:17:42 +0700
+ -- Nattawut Phetmak <neizod@gmail.com>  Mon, 21 Oct 2013 00:17:42 +0700
 
 
 blubuntu (0.9.6) saucy; urgency=high

@@ -8,11 +8,18 @@ Homepage: http://github.com/neizod/blubuntu
 
 Package: blubuntu
 Architecture: all
-Depends: blubuntu-lightdm,
+Depends: blubuntu-ambiance,
+         blubuntu-lightdm,
          blubuntu-plymouth,
          blubuntu-paintings,
          ${misc:Depends}
 Description: Blubuntu (metapackage) - turns Ubuntu into blue!
+
+Package: blubuntu-ambiance
+Architecture: all
+Depends: blubuntu-paintings,
+         ${misc:Depends}
+Description: Blubuntu Ambiance - gtk theme.
 
 Package: blubuntu-lightdm
 Architecture: all
