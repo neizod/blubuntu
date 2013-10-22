@@ -14,5 +14,6 @@ upload: signed
 	dput ppa:neizod/ppa ${APPNAME}_${VERSION}_source.changes
 
 clean:
-	rm -rf *.deb *.tar.gz *.build *.changes *.dsc src/debian/${APPNAME}*/ \
-	       src/debian/files src/debian/*.log src/debian/*.substvars
+	rm -rf *.deb *.tar.gz *.build *.changes *.dsc *.diff.gz *.ppa.upload \
+	       src/debian/files src/debian/*.log src/debian/*.substvars \
+	       src/debian/${APPNAME}*/ 
