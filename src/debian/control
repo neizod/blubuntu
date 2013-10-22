@@ -8,5 +8,11 @@ Homepage: http://github.com/neizod/blubuntu
 
 Package: blubuntu
 Architecture: all
-Depends:
-Description: Blubuntu turns Ubuntu into blue!
+Depends: blubuntu-paintings,
+         ${misc:Depends}
+Description: Blubuntu (metapackage) - turns Ubuntu into blue!
+
+Package: blubuntu-paintings
+Architecture: all
+Depends: ${misc:Depends}
+Description: Blubuntu Paintings - wallpapers.
