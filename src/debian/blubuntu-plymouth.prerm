@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+update-alternatives \
+    --set default.plymouth \
+          /lib/plymouth/themes/ubuntu-logo/ubuntu-logo.plymouth
+update-alternatives \
+    --remove default.plymouth \
+             /lib/plymouth/themes/blubuntu-logo/ubuntu-logo.plymouth
+
+
+update-alternatives \
+    --set text.plymouth \
+          /lib/plymouth/themes/ubuntu-text/ubuntu-text.plymouth
+update-alternatives \
+    --remove text.plymouth \
+             /lib/plymouth/themes/blubuntu-text/ubuntu-text.plymouth
+
+
+update-grub
