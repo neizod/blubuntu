@@ -1,3 +1,10 @@
+blubuntu (0.9.10) saucy; urgency=high
+
+  * test build w/ dependency
+
+ -- Nattawut Phetmak <neizod@gmail.com>  Tue, 22 Oct 2013 10:13:42 +0700
+
+
 blubuntu (0.9.9) saucy; urgency=high
 
   * split wallpaper, plymouth, lightdm & ambiance out of main package.
