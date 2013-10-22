@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # gnome default background
 path=/usr/share/backgrounds
 name=Starry_Night_Over_the_Rhone_by_Vincent_van_Gogh.jpg
