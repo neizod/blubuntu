@@ -15,3 +15,4 @@ sed -i "s|\(<default>'\)\#.\+\('</default>\)|\1\#000014\2|" $file
 
 
 glib-compile-schemas /usr/share/glib-2.0/schemas
+#DEBHELPER#
