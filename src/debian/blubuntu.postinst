@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
 
-# black cursor
-update-alternatives \
-    --set x-cursor-theme \
-          /usr/share/icons/DMZ-Black/cursor.theme
-
-
 # plymouth theme
 update-alternatives \
     --install /lib/plymouth/themes/default.plymouth \
