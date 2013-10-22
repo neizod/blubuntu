@@ -8,9 +8,17 @@ Homepage: http://github.com/neizod/blubuntu
 
 Package: blubuntu
 Architecture: all
-Depends: blubuntu-paintings,
+Depends: blubuntu-lightdm,
+         blubuntu-plymouth,
+         blubuntu-paintings,
          ${misc:Depends}
 Description: Blubuntu (metapackage) - turns Ubuntu into blue!
+
+Package: blubuntu-lightdm
+Architecture: all
+Depends: blubuntu-paintings,
+         ${misc:Depends}
+Description: Blubuntu LightDM - login screen.
 
 Package: blubuntu-plymouth
 Architecture: all

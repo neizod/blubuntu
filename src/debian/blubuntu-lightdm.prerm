@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+path=/usr/share/backgrounds
+name=warty-final-ubuntu.png
+
+file=/usr/share/glib-2.0/schemas/com.canonical.unity-greeter.gschema.xml
+sed -i "s|\(<default>'$path/\).\+\('</default>\)|\1$name\2|" $file
+sed -i "s|\(<default>'\)\#.\+\('</default>\)|\1\#000014\2|" $file
+
+glib-compile-schemas /usr/share/glib-2.0/schemas
+#DEBHELPER#
