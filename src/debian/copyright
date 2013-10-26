@@ -5,6 +5,10 @@ Source: http://github.com/neizod/blubuntu
 Copyright: 2013 Nattawut Phetmak <neizod@gmail.com>
 License: GPL-3.0+
 
+Files: ambiance/*
+Copyright: 2013 Umair Riaz <noobslab.com@gmail.com>
+License: GPL-3.0+
+
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
