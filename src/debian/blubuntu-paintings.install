@@ -1,2 +1,2 @@
-paintings/*.{jpg,png} /usr/share/backgrounds/
+paintings/*.jpg /usr/share/backgrounds/
 paintings/*.xml /usr/share/gnome-background-properties/
