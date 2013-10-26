@@ -2,6 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: yes
 Source: http://github.com/neizod/blubuntu
 
+Files: *
 Copyright: 2013 Nattawut Phetmak <neizod@gmail.com>
 License: GPL-3.0+
 

@@ -1,8 +1,9 @@
 blubuntu (0.9.10) saucy; urgency=high
 
-  * test build w/ dependency
+  * add Ambiance-blue theme.
+  * add long package description.
 
- -- Nattawut Phetmak <neizod@gmail.com>  Tue, 22 Oct 2013 10:13:42 +0700
+ -- Nattawut Phetmak <neizod@gmail.com>  Sun, 27 Oct 2013 04:13:42 +0700
 
 
 blubuntu (0.9.9) saucy; urgency=high

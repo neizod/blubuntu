@@ -12,7 +12,6 @@ Depends: blubuntu-ambiance,
          blubuntu-lightdm,
          blubuntu-plymouth,
          blubuntu-paintings,
-         ${shlibs:Depends},
          ${misc:Depends}
 Description: Turns Ubuntu into blue!
  This is metapackage which providing all pieces of Blubuntu.
@@ -22,7 +21,6 @@ Architecture: all
 Depends: blubuntu-paintings,
          gtk2-engines-murrine,
          gtk3-engines-unico,
-         ${shlibs:Depends},
          ${misc:Depends}
 Description: Blue Ambiance theme.
  This package contains and set up Ambiance theme with blue tone.
@@ -31,7 +29,6 @@ Package: blubuntu-lightdm
 Architecture: all
 Depends: blubuntu-paintings,
          lightdm,
-         ${shlibs:Depends},
          ${misc:Depends}
 Description: Blue LightDM login screen.
  This dependency package set up LightDM login screen with blue tone.
@@ -39,7 +36,6 @@ Description: Blue LightDM login screen.
 Package: blubuntu-plymouth
 Architecture: all
 Depends: plymouth,
-         ${shlibs:Depends},
          ${misc:Depends}
 Description: Blue GRUB and splash.
  This package contains and set up GRUB and Plymouth theme in blue tone.
