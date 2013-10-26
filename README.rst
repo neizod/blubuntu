@@ -1,12 +1,13 @@
-========
-Blubuntu
-========
+===============
+Blubuntu (beta)
+===============
 
 Turns most of Ubuntu color from orange-purple into blue.
 Also set new default background picture and cursor color.
 
-This package itself is not a theme, it is a patch for Ubuntu default theme.
-Once installed it can not be undone (by remove package), do restore the backup.
+This package is not only a theme, it also set up system to use this theme too.
+
+This project has no relation with https://wiki.ubuntu.com/Artwork/Incoming/Blubuntu, since I found they are inactive for too long.
 
 
 Installation
@@ -26,10 +27,3 @@ Local Build and Install
     make
     dpkg -i blubuntu_*.deb
     make clean
-
-
-Backup for Restore Later
-------------------------
-
-    /usr/share/icons/default/index.theme
-    /lib/plymouth/*
