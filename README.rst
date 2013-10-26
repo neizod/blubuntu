@@ -16,6 +16,7 @@ Installation
 Via apt-get
 -----------
 
+::
     add-apt-repository ppa:neizod/ppa
     apt-get update
     apt-get install blubuntu
@@ -24,6 +25,7 @@ Via apt-get
 Local Build and Install
 -----------------------
 
+::
     make
     dpkg -i blubuntu_*.deb
     make clean
