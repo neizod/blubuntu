@@ -1,6 +1,10 @@
 #!/bin/sh
 set -e
 
+file=/usr/share/icons/default/index.theme
+sed -i "s|DMZ-White|DMZ-Black|" $file
+
+
 path=/usr/share/backgrounds
 name=Starry_Night_Over_the_Rhone_by_Vincent_van_Gogh.jpg
 

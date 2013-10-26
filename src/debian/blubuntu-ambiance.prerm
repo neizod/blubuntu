@@ -1,6 +1,10 @@
 #!/bin/sh
 set -e
 
+file=/usr/share/icons/default/index.theme
+sed -i "s|DMZ-Black|DMZ-White|" $file
+
+
 path=/usr/share/backgrounds
 name=warty-final-ubuntu.png
 
