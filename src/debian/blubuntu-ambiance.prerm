@@ -2,7 +2,7 @@
 set -e
 
 path=/usr/share/backgrounds
-name=Starry_Night_Over_the_Rhone_by_Vincent_van_Gogh.jpg
+name=warty-final-ubuntu.png
 
 file=/usr/share/glib-2.0/schemas/10_ubuntu-settings.gschema.override
 sed -i "s|^\(picture-uri='file://$path/\).\+\('\)\$|\1$name\2|" $file
